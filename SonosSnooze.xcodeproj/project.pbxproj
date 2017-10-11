@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071CA6DB1F8B04FB0005AEAF /* AddAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071CA6DA1F8B04FB0005AEAF /* AddAlarmViewController.swift */; };
+		076362DC1F8D91B800CF5C7D /* AlarmDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076362DB1F8D91B800CF5C7D /* AlarmDetailViewController.swift */; };
+		076362DE1F8D95C000CF5C7D /* UIColor+colorFromHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076362DD1F8D95C000CF5C7D /* UIColor+colorFromHex.swift */; };
+		076362E01F8DA0EA00CF5C7D /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 076362DF1F8DA0EA00CF5C7D /* delete@2x.png */; };
+		0783326B1F8DAA920079F064 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0783326A1F8DAA920079F064 /* plus@2x.png */; };
+		07A370431F8BE65E00C084E6 /* AlarmAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A370421F8BE65E00C084E6 /* AlarmAPI.swift */; };
+		07A370461F8BE6CB00C084E6 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A370451F8BE6CB00C084E6 /* Alarm.swift */; };
+		07A370481F8BF2A900C084E6 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A370471F8BF2A900C084E6 /* extensions.swift */; };
+		07C493F91F8AF9E000BED805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C493F81F8AF9E000BED805 /* AppDelegate.swift */; };
+		07C493FB1F8AF9E000BED805 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C493FA1F8AF9E000BED805 /* AlarmViewController.swift */; };
+		07C493FE1F8AF9E000BED805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C493FC1F8AF9E000BED805 /* Main.storyboard */; };
+		07C494001F8AF9E000BED805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C493FF1F8AF9E000BED805 /* Assets.xcassets */; };
+		07C494031F8AF9E000BED805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C494011F8AF9E000BED805 /* LaunchScreen.storyboard */; };
+		07C4940E1F8AF9E000BED805 /* SonosSnoozeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C4940D1F8AF9E000BED805 /* SonosSnoozeTests.swift */; };
+		07C494191F8AF9E000BED805 /* SonosSnoozeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C494181F8AF9E000BED805 /* SonosSnoozeUITests.swift */; };
+		07C494271F8AFD5500BED805 /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C494261F8AFD5500BED805 /* AlarmTableViewCell.swift */; };
+		9ED15A669294E1D78F728FE9 /* Pods_SonosSnooze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDBA99900930DB0B11B53994 /* Pods_SonosSnooze.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07C4940A1F8AF9E000BED805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07C493ED1F8AF9DF00BED805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07C493F41F8AF9E000BED805;
+			remoteInfo = SonosSnooze;
+		};
+		07C494151F8AF9E000BED805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07C493ED1F8AF9DF00BED805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07C493F41F8AF9E000BED805;
+			remoteInfo = SonosSnooze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		071CA6DA1F8B04FB0005AEAF /* AddAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAlarmViewController.swift; sourceTree = "<group>"; };
+		076362DB1F8D91B800CF5C7D /* AlarmDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDetailViewController.swift; sourceTree = "<group>"; };
+		076362DD1F8D95C000CF5C7D /* UIColor+colorFromHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+colorFromHex.swift"; sourceTree = "<group>"; };
+		076362DF1F8DA0EA00CF5C7D /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete@2x.png"; sourceTree = "<group>"; };
+		0783326A1F8DAA920079F064 /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
+		07A370421F8BE65E00C084E6 /* AlarmAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmAPI.swift; sourceTree = "<group>"; };
+		07A370451F8BE6CB00C084E6 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		07A370471F8BF2A900C084E6 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		07C493F51F8AF9E000BED805 /* SonosSnooze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SonosSnooze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C493F81F8AF9E000BED805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07C493FA1F8AF9E000BED805 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		07C493FD1F8AF9E000BED805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07C493FF1F8AF9E000BED805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07C494021F8AF9E000BED805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07C494041F8AF9E000BED805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C494091F8AF9E000BED805 /* SonosSnoozeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonosSnoozeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C4940D1F8AF9E000BED805 /* SonosSnoozeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonosSnoozeTests.swift; sourceTree = "<group>"; };
+		07C4940F1F8AF9E000BED805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C494141F8AF9E000BED805 /* SonosSnoozeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonosSnoozeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C494181F8AF9E000BED805 /* SonosSnoozeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonosSnoozeUITests.swift; sourceTree = "<group>"; };
+		07C4941A1F8AF9E000BED805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C494261F8AFD5500BED805 /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
+		834A91396C5A36DE688E1FB2 /* Pods-SonosSnooze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonosSnooze.release.xcconfig"; path = "Pods/Target Support Files/Pods-SonosSnooze/Pods-SonosSnooze.release.xcconfig"; sourceTree = "<group>"; };
+		D95CB04F8A27BA42F13073E9 /* Pods-SonosSnooze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonosSnooze.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SonosSnooze/Pods-SonosSnooze.debug.xcconfig"; sourceTree = "<group>"; };
+		DDBA99900930DB0B11B53994 /* Pods_SonosSnooze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SonosSnooze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07C493F21F8AF9E000BED805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED15A669294E1D78F728FE9 /* Pods_SonosSnooze.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C494061F8AF9E000BED805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C494111F8AF9E000BED805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A370441F8BE6BE00C084E6 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				07A370451F8BE6CB00C084E6 /* Alarm.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		07C493EC1F8AF9DF00BED805 = {
+			isa = PBXGroup;
+			children = (
+				07C493F71F8AF9E000BED805 /* SonosSnooze */,
+				07C4940C1F8AF9E000BED805 /* SonosSnoozeTests */,
+				07C494171F8AF9E000BED805 /* SonosSnoozeUITests */,
+				07C493F61F8AF9E000BED805 /* Products */,
+				0991D6D6B8528CC5EBA7ABB6 /* Pods */,
+				59739FC24F7ACACB5417990B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07C493F61F8AF9E000BED805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07C493F51F8AF9E000BED805 /* SonosSnooze.app */,
+				07C494091F8AF9E000BED805 /* SonosSnoozeTests.xctest */,
+				07C494141F8AF9E000BED805 /* SonosSnoozeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07C493F71F8AF9E000BED805 /* SonosSnooze */ = {
+			isa = PBXGroup;
+			children = (
+				0783326A1F8DAA920079F064 /* plus@2x.png */,
+				07A370441F8BE6BE00C084E6 /* models */,
+				07C493F81F8AF9E000BED805 /* AppDelegate.swift */,
+				07C493FA1F8AF9E000BED805 /* AlarmViewController.swift */,
+				07C493FC1F8AF9E000BED805 /* Main.storyboard */,
+				07C493FF1F8AF9E000BED805 /* Assets.xcassets */,
+				07C494011F8AF9E000BED805 /* LaunchScreen.storyboard */,
+				07C494041F8AF9E000BED805 /* Info.plist */,
+				07C494261F8AFD5500BED805 /* AlarmTableViewCell.swift */,
+				071CA6DA1F8B04FB0005AEAF /* AddAlarmViewController.swift */,
+				07A370421F8BE65E00C084E6 /* AlarmAPI.swift */,
+				07A370471F8BF2A900C084E6 /* extensions.swift */,
+				076362DB1F8D91B800CF5C7D /* AlarmDetailViewController.swift */,
+				076362DF1F8DA0EA00CF5C7D /* delete@2x.png */,
+				076362DD1F8D95C000CF5C7D /* UIColor+colorFromHex.swift */,
+			);
+			path = SonosSnooze;
+			sourceTree = "<group>";
+		};
+		07C4940C1F8AF9E000BED805 /* SonosSnoozeTests */ = {
+			isa = PBXGroup;
+			children = (
+				07C4940D1F8AF9E000BED805 /* SonosSnoozeTests.swift */,
+				07C4940F1F8AF9E000BED805 /* Info.plist */,
+			);
+			path = SonosSnoozeTests;
+			sourceTree = "<group>";
+		};
+		07C494171F8AF9E000BED805 /* SonosSnoozeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07C494181F8AF9E000BED805 /* SonosSnoozeUITests.swift */,
+				07C4941A1F8AF9E000BED805 /* Info.plist */,
+			);
+			path = SonosSnoozeUITests;
+			sourceTree = "<group>";
+		};
+		0991D6D6B8528CC5EBA7ABB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D95CB04F8A27BA42F13073E9 /* Pods-SonosSnooze.debug.xcconfig */,
+				834A91396C5A36DE688E1FB2 /* Pods-SonosSnooze.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59739FC24F7ACACB5417990B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDBA99900930DB0B11B53994 /* Pods_SonosSnooze.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07C493F41F8AF9E000BED805 /* SonosSnooze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C4941D1F8AF9E000BED805 /* Build configuration list for PBXNativeTarget "SonosSnooze" */;
+			buildPhases = (
+				B783179017F42FEA470756B6 /* [CP] Check Pods Manifest.lock */,
+				07C493F11F8AF9E000BED805 /* Sources */,
+				07C493F21F8AF9E000BED805 /* Frameworks */,
+				07C493F31F8AF9E000BED805 /* Resources */,
+				80A82C75996EA6F1B04714FF /* [CP] Embed Pods Frameworks */,
+				58E54F4427883F2DB205D29F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SonosSnooze;
+			productName = SonosSnooze;
+			productReference = 07C493F51F8AF9E000BED805 /* SonosSnooze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07C494081F8AF9E000BED805 /* SonosSnoozeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C494201F8AF9E000BED805 /* Build configuration list for PBXNativeTarget "SonosSnoozeTests" */;
+			buildPhases = (
+				07C494051F8AF9E000BED805 /* Sources */,
+				07C494061F8AF9E000BED805 /* Frameworks */,
+				07C494071F8AF9E000BED805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07C4940B1F8AF9E000BED805 /* PBXTargetDependency */,
+			);
+			name = SonosSnoozeTests;
+			productName = SonosSnoozeTests;
+			productReference = 07C494091F8AF9E000BED805 /* SonosSnoozeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07C494131F8AF9E000BED805 /* SonosSnoozeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C494231F8AF9E000BED805 /* Build configuration list for PBXNativeTarget "SonosSnoozeUITests" */;
+			buildPhases = (
+				07C494101F8AF9E000BED805 /* Sources */,
+				07C494111F8AF9E000BED805 /* Frameworks */,
+				07C494121F8AF9E000BED805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07C494161F8AF9E000BED805 /* PBXTargetDependency */,
+			);
+			name = SonosSnoozeUITests;
+			productName = SonosSnoozeUITests;
+			productReference = 07C494141F8AF9E000BED805 /* SonosSnoozeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07C493ED1F8AF9DF00BED805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Eric Chen";
+				TargetAttributes = {
+					07C493F41F8AF9E000BED805 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5R3EXJ99YZ;
+						ProvisioningStyle = Automatic;
+					};
+					07C494081F8AF9E000BED805 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5R3EXJ99YZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07C493F41F8AF9E000BED805;
+					};
+					07C494131F8AF9E000BED805 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5R3EXJ99YZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07C493F41F8AF9E000BED805;
+					};
+				};
+			};
+			buildConfigurationList = 07C493F01F8AF9DF00BED805 /* Build configuration list for PBXProject "SonosSnooze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07C493EC1F8AF9DF00BED805;
+			productRefGroup = 07C493F61F8AF9E000BED805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07C493F41F8AF9E000BED805 /* SonosSnooze */,
+				07C494081F8AF9E000BED805 /* SonosSnoozeTests */,
+				07C494131F8AF9E000BED805 /* SonosSnoozeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07C493F31F8AF9E000BED805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C494031F8AF9E000BED805 /* LaunchScreen.storyboard in Resources */,
+				0783326B1F8DAA920079F064 /* plus@2x.png in Resources */,
+				076362E01F8DA0EA00CF5C7D /* delete@2x.png in Resources */,
+				07C494001F8AF9E000BED805 /* Assets.xcassets in Resources */,
+				07C493FE1F8AF9E000BED805 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C494071F8AF9E000BED805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C494121F8AF9E000BED805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58E54F4427883F2DB205D29F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SonosSnooze/Pods-SonosSnooze-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80A82C75996EA6F1B04714FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SonosSnooze/Pods-SonosSnooze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B783179017F42FEA470756B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07C493F11F8AF9E000BED805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071CA6DB1F8B04FB0005AEAF /* AddAlarmViewController.swift in Sources */,
+				076362DC1F8D91B800CF5C7D /* AlarmDetailViewController.swift in Sources */,
+				07C493FB1F8AF9E000BED805 /* AlarmViewController.swift in Sources */,
+				07C493F91F8AF9E000BED805 /* AppDelegate.swift in Sources */,
+				07A370481F8BF2A900C084E6 /* extensions.swift in Sources */,
+				07A370431F8BE65E00C084E6 /* AlarmAPI.swift in Sources */,
+				07C494271F8AFD5500BED805 /* AlarmTableViewCell.swift in Sources */,
+				07A370461F8BE6CB00C084E6 /* Alarm.swift in Sources */,
+				076362DE1F8D95C000CF5C7D /* UIColor+colorFromHex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C494051F8AF9E000BED805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C4940E1F8AF9E000BED805 /* SonosSnoozeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C494101F8AF9E000BED805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C494191F8AF9E000BED805 /* SonosSnoozeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07C4940B1F8AF9E000BED805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07C493F41F8AF9E000BED805 /* SonosSnooze */;
+			targetProxy = 07C4940A1F8AF9E000BED805 /* PBXContainerItemProxy */;
+		};
+		07C494161F8AF9E000BED805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07C493F41F8AF9E000BED805 /* SonosSnooze */;
+			targetProxy = 07C494151F8AF9E000BED805 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07C493FC1F8AF9E000BED805 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C493FD1F8AF9E000BED805 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07C494011F8AF9E000BED805 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C494021F8AF9E000BED805 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07C4941B1F8AF9E000BED805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07C4941C1F8AF9E000BED805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07C4941E1F8AF9E000BED805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D95CB04F8A27BA42F13073E9 /* Pods-SonosSnooze.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5R3EXJ99YZ;
+				INFOPLIST_FILE = SonosSnooze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.SonosSnooze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		07C4941F1F8AF9E000BED805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 834A91396C5A36DE688E1FB2 /* Pods-SonosSnooze.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5R3EXJ99YZ;
+				INFOPLIST_FILE = SonosSnooze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.SonosSnooze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		07C494211F8AF9E000BED805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5R3EXJ99YZ;
+				INFOPLIST_FILE = SonosSnoozeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.SonosSnoozeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SonosSnooze.app/SonosSnooze";
+			};
+			name = Debug;
+		};
+		07C494221F8AF9E000BED805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5R3EXJ99YZ;
+				INFOPLIST_FILE = SonosSnoozeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.SonosSnoozeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SonosSnooze.app/SonosSnooze";
+			};
+			name = Release;
+		};
+		07C494241F8AF9E000BED805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5R3EXJ99YZ;
+				INFOPLIST_FILE = SonosSnoozeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.SonosSnoozeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SonosSnooze;
+			};
+			name = Debug;
+		};
+		07C494251F8AF9E000BED805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5R3EXJ99YZ;
+				INFOPLIST_FILE = SonosSnoozeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.SonosSnoozeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SonosSnooze;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C493F01F8AF9DF00BED805 /* Build configuration list for PBXProject "SonosSnooze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C4941B1F8AF9E000BED805 /* Debug */,
+				07C4941C1F8AF9E000BED805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C4941D1F8AF9E000BED805 /* Build configuration list for PBXNativeTarget "SonosSnooze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C4941E1F8AF9E000BED805 /* Debug */,
+				07C4941F1F8AF9E000BED805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C494201F8AF9E000BED805 /* Build configuration list for PBXNativeTarget "SonosSnoozeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C494211F8AF9E000BED805 /* Debug */,
+				07C494221F8AF9E000BED805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C494231F8AF9E000BED805 /* Build configuration list for PBXNativeTarget "SonosSnoozeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C494241F8AF9E000BED805 /* Debug */,
+				07C494251F8AF9E000BED805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07C493ED1F8AF9DF00BED805 /* Project object */;
+}

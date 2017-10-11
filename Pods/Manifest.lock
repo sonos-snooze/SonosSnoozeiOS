@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.4.0)
+  - AlamofireObjectMapper (4.0.2):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 2.0)
+  - Kingfisher (3.10.1)
+  - ObjectMapper (2.2.7)
+  - ScrollableGraphView (4.0.4)
+  - Spartan (1.0.1):
+    - AlamofireObjectMapper (~> 4.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Kingfisher (~> 3.0)
+  - ScrollableGraphView (~> 4.0.4)
+  - Spartan
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AlamofireObjectMapper: 94923a4320bbe52c1d0d462093277a9d6a755a78
+  Kingfisher: 33a1b82140fcb14a9fc13f78dfde2a03ff8de8cb
+  ObjectMapper: 65abcfd9a61cf7396cbd14a4fb22fddfcc46577e
+  ScrollableGraphView: 072ea302f4ca27779692656a49d51fe537b2b1e7
+  Spartan: 1da9f65bf2e1e59e122487b9b82280057e560f6c
+
+PODFILE CHECKSUM: 85de4a25881f6c80d2eb6fec3f91f837be76e3bd
+
+COCOAPODS: 1.2.0
